@@ -1489,14 +1489,14 @@ header .top-bar {
 }
 .intro-info img {
 	height: 10rem;
-	width: 14rem;
+	width: 15rem;
 	border-radius: 50%;
 	margin: .9rem 0 0 0;
 	float: left;
 }
 .intro-info .lead {
 	text-align: left;
-	padding-left: 13rem;
+	/*padding-left: 13rem;*/
 }
 
 .about-content {
@@ -1561,11 +1561,11 @@ header .top-bar {
 }
 @media only screen and (max-width:768px) {
 	.intro-info img {
-		height: 7.8rem;
-		width: 7.8rem;
+		height: 8rem;
+		width: 12rem;
 	}
 	.intro-info .lead {
-		padding-left: 11rem;
+		/*padding-left: 11rem;*/
 	}
 	.about-content h3 {
 		text-align: center;
@@ -1587,8 +1587,8 @@ header .top-bar {
 		margin-top: 3rem;
 	}
 	.intro-info img {
-		height: 6.6rem;
-		width: 6.6rem;
+		height: 5rem;
+		width: 7.5rem;
 		float: none;
 		display: inline-block;
 	}
@@ -2066,4 +2066,8 @@ footer .social {
 	font-style: normal;
 	text-rendering: optimizeLegibility;
 	margin-bottom: 2.1rem;
+}
+
+.lead, .leadd {
+	text-align: justify !important;
 }
